@@ -1,0 +1,47 @@
+
+.navbar {
+    display: flex;
+    background-color: #e15a38;
+    justify-content: space-around;
+
+}
+.content {
+    background-color: antiquewhite;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    order: 2;
+
+
+}
+.news {
+    width: 30%;
+    order: 3;
+    
+}
+h1~p {
+    text-align: center;
+}
+.content p {
+    display: block;
+    width: 100%;
+}
+
+#breaking h3 {
+	align-self: flex-start;
+	order: 1;
+	font-size: xxx-large;
+}
+
+.content h1 {
+	width: 100%;
+	margin-left: 633px;
+
+
+}
+
+#breaking {
+	order: -1;
+}
+
